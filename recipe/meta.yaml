@@ -1,5 +1,5 @@
 {% set name = "shyaml" %}
-{% set version = "0.5.2" %}
+{% set version = "0.6.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 80650ebfe6fa2e16083451d515207472d60990c1c15fc0fd607c27077790ac23
+  sha256: c6f0f7d7dc85707a540bdec202eab59ae475cbcd1d582cde623799b1b21df1dc
   patches:
     # this is needed to make conda entry point work.
     - cli-args.patch
