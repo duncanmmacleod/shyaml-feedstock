@@ -18,10 +18,11 @@ build:
 
 requirements:
   host:
-    - python
-    - setuptools
     - d2to1
+    - pip
+    - python
     - pyyaml
+    - setuptools
   run:
     - python
     - pyyaml
